@@ -1,0 +1,251 @@
+/* INDEX */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/fondo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+}
+
+.container2 {
+    max-width: 1200px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container3 {
+    max-width: 1200px;
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    color: #d2a5ec;
+    border-radius: 8px;
+}
+
+.container3 h1 {
+    font-size: 50px;
+    color: #d2a5ec;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container3 p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #fff;
+    text-align: justify;
+}
+
+.containerimg{
+    text-align: center;
+}
+
+.container3 button {
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    padding: 12px 25px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    gap: 5px;
+    transition: transform 0.2s ease;
+}
+
+.container3 button:hover {
+    transform: scale(1.1);
+}
+
+
+.content {
+    text-align: center;
+    color: #fff;
+    padding: 40px;
+    background-color: rgb(0, 0, 0,0.4);
+}
+
+.content h1 {
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.content h1 span {
+    color: #d2a5ec;
+}
+
+.content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+
+}
+
+.launch-time {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.launch-time div {
+    flex: 1;
+    text-align: center;
+}
+
+.launch-time div p {
+    font-size: 60px;
+    margin-bottom: -5px;
+}
+
+button {
+    background: transparent;
+    border: 2px solid #fff;
+    padding: 12px 25px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+    gap: 5px;
+    transition: transform 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.vidtu{
+    text-align: center;
+}
+
+.container2 a{
+    text-decoration: none;
+}
+
+.container3 a{
+    text-decoration: none;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1520px) {
+    .content h1 {
+        font-size: 60px;
+    }
+    .launch-time div p {
+        font-size: 55px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .content h1 {
+        font-size: 50px;
+    }
+    .launch-time div p {
+        font-size: 45px;
+    }
+
+    .container3 h1 {
+        font-size: 40px;
+    }
+    .container3 p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .content h1 {
+        font-size: 40px;
+    }
+    .launch-time div p {
+        font-size: 35px;
+    }
+
+    .container3 h1 {
+        font-size: 35px;
+    }
+    .container3 p {
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .content h1 {
+        font-size: 30px;
+    }
+    .launch-time div p {
+        font-size: 25px;
+    }
+    .launch-time span {
+        font-size: 14px;
+    }
+    button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .container3 h1 {
+        font-size: 20px;
+    }
+    .container3 p {
+        font-size: 10px;
+    }
+    .container3 button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    
+    .vidtu video {
+        width: 70%;
+    }
+}
+
+@media (max-width: 400px) {
+    .content h1 {
+        font-size: 24px;
+    }
+    .launch-time div p {
+        font-size: 20px;
+    }
+    button {
+        padding: 8px 16px;
+        font-size: 12px;
+    }
+
+    .container3 h1 {
+        font-size: 15px;
+    }
+    .container3 p {
+        font-size: 8px;
+    }
+    .container3 button {
+        padding: 8px 16px;
+        font-size: 10px;
+    }
+
+}
